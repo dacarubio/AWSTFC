@@ -9,7 +9,7 @@ resource "aws_vpc" "production-vpc" {
   enable_dns_hostnames  = true
   
   tags = {
-    Name = "DadaVPC90"
+    Name = "DadaVPC1"
   }
 }
 
