@@ -4,8 +4,8 @@ variable "region" {
 }
 
 variable "vpc_cidr" {
-  default     = "10.0.0.0/16"
-  description = "DadaVPC1"
+  default     = "10.100.0.0/16"
+  description = "VPC CIDR Block"
 }
 
 variable "public_subnet_1_cidr" {
