@@ -1,6 +1,6 @@
 terraform {
     backend "s3" {
-        bucket = "terraform-kplabs-backend"
+        bucket = "terraform-awsdada-backend"
         key    = "remotedemo.tfstate"
         region = "ap-southeast-2"
     }
