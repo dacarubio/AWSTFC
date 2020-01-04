@@ -9,7 +9,7 @@ resource "aws_vpc" "production-vpc" {
   enable_dns_hostnames  = true
   
   tags = {
-    Name = "VPC-Net10"
+    Name = "VPC_10.10.0.0"
   }
 }
 
